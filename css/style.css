@@ -1,0 +1,49 @@
+﻿*{margin:0;padding:0;}
+body{font-size:14px;font-family:"微软雅黑"}
+img,ul,ol{border:0;list-style:none}
+a{color:#333;text-decoration:none}
+.main{margin:auto;width:925px;}
+.clear{clear:both;}
+
+/*头部内容 header*/
+.header{background:url(../img/banner.png) repeat-x;height:140px;width:100%;}
+.headimg{width:925px;margin:auto;padding-top:15px;}
+/*标题*/
+.title{text-align:center;line-height:63px;}
+
+/*网站左边内容 - pleft*/
+.pleft{margin-top:10px;float:left;width:160px;}
+/*左边ul内容*/
+.pleftul{border:1px solid #ddd; width:160px;padding:10px 0}
+.fixed{position:fixed;top:18%;left:50%;margin-left:-467px;}
+.pleftul li{height:30px;line-height:30px;width:110px;padding-left:50px;}
+.pleftul li:nth-child(1){ background: url(../img/hb.jpg) 20px center no-repeat; }
+.pleftul li:nth-child(2){ background: url(../img/gx.jpg) 20px center no-repeat; }
+.pleftul li:nth-child(3){ background: url(../img/hbb.jpg) 20px center no-repeat; }
+.pleftul li:nth-child(4){ background: url(../img/mx.jpg) 20px center no-repeat; }
+.pleftul li:nth-child(5){ background: url(../img/xf.jpg) 20px center no-repeat; }
+.pleftul li:nth-child(6){ background: url(../img/zs.jpg) 20px center no-repeat; }
+.pleftul li:nth-child(7){ background: url(../img/ly.jpg) 20px center no-repeat; }
+.pleftul li:nth-child(8){ background: url(../img/dh.jpg) 20px center no-repeat; }
+.pleftul li:nth-child(9){ background: url(../img/dt.jpg) 20px center no-repeat; }
+.pleftul li:nth-child(10){ background: url(../img/kx.jpg) 20px center no-repeat; }
+.pleftul li:nth-child(11){ background: url(../img/xy.jpg) 20px center no-repeat; }
+.pleftul li:nth-child(12){ background: url(../img/qt.jpg) 20px center no-repeat; }
+.pleftul li a{color:#333;}
+
+
+/*中间内容*/
+.conter{width:540px;overflow:hidden;float:left;margin-top:10px;margin-left:10px;}
+.cont-all{border-bottom:1px solid #ddd;border:1px solid #ddd;}
+.cont-all li {float:left;padding-left:10px;margin-top:15px;border-bottom:1px solid #ddd;padding-bottom:15px;}
+.cont-all li img{float:left;widht:140px;height:100px;}
+.cont-all li a{margin-top:10px;display:inline-block}
+.cont-txt{float:left;width:375px;margin-left:10px;}
+
+/*右边 内容 pright*/
+.pright{float:right;width:200px;border:1px solid #ddd;margin-top:10px;}
+.prtitle{line-height:30px;padding-left:10px;}
+.prul{margin-top:15px;}
+.prul li{border-bottom:1px solid #ddd;padding-left:10px;padding-bottom:10px;margin-bottom:10px;}
+.prul li img{width:60px;height:45px;vertical-align:middle}
+.prul li span{float:right;width:115px;margin-right:6px;}
